@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- jQuery CDN Added Below -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Welcome</title>
+    <link rel="icon" type="image/x-icon" href="images/bpa-logo-with-tagline.jpg"> <!-- Favicon Icon -->
+
+
+    <style>
+        /*Structure of the Index slider*/
+        .container {
+            width: 1904px;
+            height: 780px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 64%;
+            left: 50%;
+            overflow: hidden;
+            border: none;
+        }
+
+        /*Area of images*/
+        .wrapper {
+            width: 100%;
+            display: flex;
+            animation: slide 13s infinite linear;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        /*Animation activated by keyframes*/
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(0);
+            }
+
+            30% {
+                transform: translateX(-100%);
+            }
+
+            50% {
+                transform: translateX(-100%);
+            }
+
+            55% {
+                transform: translateX(-200%);
+            }
+
+            75% {
+                transform: translateX(-200%);
+            }
+
+            80% {
+                transform: translateX(-300%);
+            }
+
+            100% {
+                transform: translateX(-300%);
+            }
+        }
+
+        /* Nav Bar Sticky */
+        #navbar {
+            border-bottom: 1px solid #E8E8E8;
+            font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: white;
+            position: fixed;
+            top: -100px;
+            width: 100%;
+            display: inline;
+            transition: top 0.3s;
+            height: 100px;
+            text-align: center;
+            /* z-index: -1; */
+        }
+
+        #navbar a {
+            /* float: left; */
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        #navbar a:hover {
+            /* background-color: #ddd; */
+            color: gray;
+        }
+
+        /* --------------- */
+        span {
+            vertical-align: 28px;
+        }
+    </style>
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <!-- Nav Initial Position -->
+    
+
+    <!-- Navigation Section Starts Here -->
+    <div id="headerPart">
+        <div id="BpALogo">
+            <a href="index.html"><img class="centerImage BpALogoResponsive" src="images/bpa-logo-with-tagline.jpg"
+                    alt="BpA Logo" width="250" height="145" align="center"></a>
+        </div>
+
+        <div id="navigation">
+
+            <ul class="nav">
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- Navigation Section Ends -->
+
+    <!-- Image Slide Starts Here -->
+
+    <!--Basic structure of slider-->
+    <div class="container">
+        <!--Area of the images-->
+        <div class="wrapper">
+            <img src="images/slide1-Delray-Beach-Exterior-Lake.jpg" alt="s1">
+            <img src="images/slide2-Home-Ranches-parkland-FL.jpg">
+            <img src="images/slide3-yoblendz1.jpg">
+            <img src="images/slide2-Home-Ranches-parkland-FL.jpg">
+        </div>
+
+    </div>
+
+    <!-- Image Slide Ends Here -->
+
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <!-- Middle Part Starts Here-->
+    <div id="middlePart" class="middlePartIndexResponsive">
+        <div class="middleText">
+            <h3>Lets Work Together</h3>
+            <p>We’re always looking for new opportunities. Please get in touch and one of our project managers will
+                contact you <br> about beginning the proposal process.</p><br>
+            <button class="callTodayBtn"> <a href="Call_Today.html">Call Today</a> </button>
+        </div>
+    </div>
+    <!-- Middle Part Ends -->
+    <br>
+    <!-- Footer Start -->
+    <div id="footer">
+        <div>
+            <img class="centerImage footerImageResponsive" src="images/bpa-logo-with-tagline.jpg" alt="BpA Logo"
+                width="250" height="65" align="center">
+            <p>4801 S.Wniverity Drive</p>
+            <p>Suite 126, Davie, FL 33328</p>
+            <a href="Call_Today.html" class="footerLink">Phone:(954) 476-3152</a><br>
+            <a href="mailto:pakiza@ptvl.com" class="footerLink">Bruce@BpAArchitecture.com</a><br>
+            <a href="Google_Map_Locaion.html" class="footerLink">Click Here For Google Map Location</a>
+            <div class="copyRight">
+                <br>
+                <p>© 2022 BpA Architecture.</p>
+                <p>Designed by TMDTechnology.com</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Ends -->
+
+    <div id="navbar">
+        <a href="index.html"><img src="images/STICKY_LOGO-bpa-logo-with-tagline (1).jpg" alt="logo" width="160px"
+                height="65px"></a>
+        <a href="index.html"><span>Welcome</span></a>
+        <a href="Projects.html"><span>Projects</span></a>
+        <a href="About.html"><span>About</span></a>
+    </div>
+
+</body>
+
+</html>

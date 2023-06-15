@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="styleAbout480px.css" media="only screen and (max-width: 480px)">
+    <!-- jQuery CDN Added Below -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="images/bpa-logo-with-tagline.jpg"> <!-- Favicon Icon -->
+
+    <style>
+        .mainDIV {
+            top: 75%;
+            left: 0px;
+            width: 100%;
+            height: 600px;
+            position: absolute;
+            background-image: url(images/about-Slide1-image-Custom-Home-Ranches-parkland-FL.jpg);
+            background-size: 100% 100%;
+            animation: slider 20s infinite linear;
+            filter: brightness(35%);
+        }
+
+        @keyframes slider {
+            0% {
+                background-image: url(images/about-Slide1-image-Custom-Home-Ranches-parkland-FL.jpg);
+            }
+
+            35% {
+                background-image: url(images/about-Slide2-Delray-Beach-Exterior-Lake.jpg);
+            }
+
+            75% {
+                background-image: url(images/about-Slide3-yoblendz1.jpg);
+            }
+
+        }
+
+        #navbar {
+            border-bottom: 1px solid 	#E8E8E8;
+            font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: white;
+            position: fixed;
+            top: -100px;
+            width: 100%;
+            display: inline;
+            transition: top 0.3s;
+            height: 100px;
+            text-align: center;
+            /* z-index: -1; */
+        }
+
+        #navbar a {
+            /* float: left; */
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        #navbar a:hover {
+            /* background-color: #ddd; */
+            color: gray;
+        }
+
+        /* --------------- */
+        span {
+            vertical-align: 28px;
+        }
+    </style>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <!-- Initial Nav Bar Starts Here -->
+    
+
+
+    <div class="containerAboutSection containerAboutSection2">
+        <div class="aboutSectionAlignment">
+            <!-- Navigation Section Starts Here -->
+            <div id="headerPart">
+                <div id="BpALogo">
+                    <a href="index.html"><img class="centerImage BpALogoResponsive"
+                            src="images/bpa-logo-with-tagline.jpg" alt="BpA Logo" width="250" height="145"
+                            align="center"></a>
+                </div>
+
+                <div id="navigation">
+
+                    <ul class="nav">
+                        <li><a href="index.html">Welcome</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- Navigation Section Ends -->
+        </div>
+    <br>
+        <!-- Middle Part Abut Section Start -->
+        <div id="middlePartOfAbout">
+            <img class="bruceImageResponsive" src="images/bruce-anchell-1024x972.jpg" alt="bruce-anchell-1024x972"
+                height="430px" width="430px">
+            <div class="aboutText">
+                <p>BpA Architecture specializing in custom home design and various residential projects and commercial
+                    <br>
+                    projects has been practicing since 2004. <br> <br>
+                    Bruce Anchell, Principal of the company, is a registered Architect in the state of Florida and has
+                    over<br>
+                    30 years of professional experience in the field of Architecture. BpA Architecture prides itself
+                    on<br>
+                    transforming a client’s vision, ideas and goals into reality. BpA Architecture’s exceptional<br>
+                    professional design services and attention to detail assures their projects are on time and<br>
+                    constructible.<br> <br>
+                    Bruce has earned degrees from the University of Florida (Bachelor of Design) and University of
+                    Miami<br>
+                    (Bachelor of Architecture) and is a certified LEED AP (Sustainable Design)<br> <br>
+                    Bruce enjoys spending time with his wonderful family: Wife Ilene and daughters Andi and Beth.
+                </p><br>
+            </div>
+        </div>
+        <!-- Middle Part About Section Ends -->
+
+        <div class="letsWorkTogether">
+            <div class="mainDIV">
+
+            </div>
+            <div id="letsWorkTogetherAndBtn">
+                <p class="LTSWfontResponsive" style="color: white; font-size: 30px; font-weight: bolder; ">Lets Work
+                    Together</p>
+                <a href="Call_Today.html"><button class="callTodayBtn" style="color: black;">Call Today</button></a>
+            </div>
+
+        </div>
+
+        <!-- Adding Spaces To Show Footer -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+        <!-- Footer Start -->
+        <div id="footer">
+            <div>
+                <img class="centerImage footerImageResponsive" src="images/bpa-logo-with-tagline.jpg" alt="BpA Logo"
+                    width="250" height="65" align="center">
+                <p>4801 S.Wniverity Drive</p>
+                <p>Suite 126, Davie, FL 33328</p>
+                <a href="Call_Today.html" class="footerLink">Phone:(954) 476-3152</a><br>
+                <a href="mailto:pakiza@ptvl.com" class="footerLink">Bruce@BpAArchitecture.com</a><br>
+                <a href="Google_Map_Locaion.html" class="footerLink">Click Here For Google Map Location</a>
+                <div class="copyRight">
+                    <br>
+                    <p>© 2022 BpA Architecture.</p>
+                    <p>Designed by TMDTechnology.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Ends -->
+        <div id="navbar">
+            <a href="index.html"><img src="images/STICKY_LOGO-bpa-logo-with-tagline (1).jpg" alt="logo" width="160px"
+                    height="65px"></a>
+            <a href="index.html"><span>Welcome</span></a>
+            <a href="Projects.html"><span>Projects</span></a>
+            <a href="About.html"><span>About</span></a>
+        </div>
+
+    </div>
+</body>
+
+</html>

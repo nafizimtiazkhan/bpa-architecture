@@ -1,0 +1,10 @@
+BpA Architechture
+Content:
+About.html--> Owner Image And Life Description.(Shaded Images which will transiton on its Own)
+Call Today.html--> Call Functonality and Email Popup Option.
+Google Map Location--> On Click- It will Direct to The Organiation Location On google Map.
+index.html--> Navigation and Background Image Slides By its own.
+Projects.html--> Has all the projects, Option to filter projects(All, Commercial, Residential).
+style.css--> Almost all the css are here (some of the css is done internally).
+
+Every Project Has Their Own Page Containing 3 Preview Pictures and Decription.
