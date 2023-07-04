@@ -7,7 +7,7 @@ The Website contains following pages.
 2. Projects Sample- Residential & Commercial
 ![2 Projects Page](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/19a7ad7b-334a-48bd-b28c-bf1a98afa762)
 3. Projects Sample Filter
-![3 Projects Page filter](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/ddcf152f-49fb-4d3d-8a72-7aaf04513890)
+![3 Projects Page filter](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/1903eee7-6c66-4cca-9a21-50457886bb1f)
 4. About Page with sliding images
 ![4 About Page with sliding images](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/9ff71677-78a2-422b-9426-94654c39c3bd)
 5. Contact Page
