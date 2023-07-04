@@ -5,7 +5,7 @@ The Website contains following pages.
 1. Index Page With Sliding Images
 ![1 Welcome Page with sliding Images](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/d2c9af6c-38a8-4a02-8aa2-f623d44629d5)
 2. Projects Sample- Residential & Commercial
-![2 Projects Page](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/19a7ad7b-334a-48bd-b28c-bf1a98afa762)
+![2 Projects Sample- Residential   Commercial (all)](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/4ad3857d-cc2a-4db0-a8d9-35bb319a0631)
 3. Projects Sample Filter
 ![3 Projects Page filter](https://github.com/nafizimtiazkhan/bpa-architecture/assets/89006600/1903eee7-6c66-4cca-9a21-50457886bb1f)
 4. About Page with sliding images
